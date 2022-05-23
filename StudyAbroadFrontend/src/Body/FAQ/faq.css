@@ -1,0 +1,17 @@
+.faqBlock .ant-collapse {
+    margin: 0 0 40px !important;
+  }
+  .faqBlock .quickSupport {
+    text-align: center !important;
+    max-width: 740px !important;
+    margin: auto !important;
+  }
+  .faqBlock .fas {
+    margin: 0 10px 0 0 !important;
+  }
+
+  .quickSupport h3{
+    font-size: 25px;
+  }
+  
+ 

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#mocktest{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+}
+
+#mocktest h1{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.mocktest-section{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+ .mocktest-section p{
+    background-color: rgb(237, 147, 51);
+    height: 200px;
+    color: #ffff;
+    cursor: pointer;
+    margin:5px auto;
+    transition: 0.3s linear all;
+    text-align: center;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    border-radius:25px;
+ }
+
+ .mocktest-section p:hover{
+    background-color: rgb(172, 103, 29);
+    height: 210px;
+
+ }
+
+ .types-link{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.mocktest-section p:nth-child(2){
+    background-color: rgb(76, 238, 36);
+}
+
+.mocktest-section p:nth-child(2):hover{
+    background-color:rgb(30, 114, 9);
+}
+
+.mocktest-section p:nth-child(3){
+    background-color: rgb(27, 86, 213);
+}
+.mocktest-section p:nth-child(3):hover{
+    background-color: rgb(11, 40, 100);
+}
+
+.mocktest-section p:nth-child(4){
+    background-color: rgb(237, 56, 95);
+}
+
+.mocktest-section p:nth-child(4):hover{
+    background-color: rgb(124, 17, 40);
+}
+

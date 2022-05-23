@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+.Writing-sectiontitle .Writetitle{
+                                padding-left: 501px;
+ }
+
+.Writeinstructions{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    background-color: aliceblue;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+}
+
+.WriteIns{
+    color: #4d5968;
+    margin: 0 0 1.382em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-weight: 400;
+    line-height: 1.618;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 26px;
+}
+.Writing-sectiontitle h1{
+    font-size: 30px;
+    color: rgb(19, 226, 112);
+}
+.WriteTips{
+    font-family:  nunito sans,-apple-system,blinkmacsystemfont,segoe ui,roboto,helvetica,arial,sans-serif;
+}
+
+.WriteTime{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 26px;
+}
+
+.WriteTp{
+   font-family:  nunito sans,-apple-system,blinkmacsystemfont,segoe ui,roboto,helvetica,arial,sans-serif;
+    font-size: 20px;
+    color: #4d5968;
+    margin: 0 0 1.382em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-weight: 400;
+    line-height: 1.618;
+}
+
+.Writing-test{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+
+.Writing-test .Buttonhead{
+   color: blue;
+}
+.Writing-test  button{
+    border: 2px solid black;
+    width: 139px;
+    border-radius: 6px;
+    margin-left: 2px;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: rgb(242, 154, 23);
+    font-weight: 400;
+    font-size: 20px
+}
+
+.Writing-test  button:hover{
+    background-color: #191a1c;
+    color: #ffff;
+}
+
+.Writeviewins{
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 6px;
+    margin-left: 2px;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: rgb(242, 154, 23);
+    font-weight: 400;
+}
+
+.Writing-test a{
+    padding:1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 1.382em;
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Writing-test h2{
+    font-size: 30px;
+}

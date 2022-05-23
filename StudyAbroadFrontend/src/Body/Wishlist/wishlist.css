@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wishlist-section{
+    margin: 10px 40px;
+    overflow: hidden;
+}
+
+.wishlist-table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+.wishlist-table thead{
+    background-color: rgb(175, 175, 175);
+    height: 60px;
+}
+
+.wishlist-table thead tr th{
+    font-size: 14px;
+    font-weight: medium;
+    letter-spacing: 0.35px;
+    color: #484242;
+    /* opacity: 1; */
+    padding: 12px;
+    /* vertical-align: top; */
+    border: 1px solid #dee2e685;
+    text-align: center;
+}
+
+.wishlist-table tbody tr td{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: #666565;
+    background-color:#d5e9e9;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid #ffffff85;
+}
+
+.uni-img img{
+    width: 100px;
+    /* height: 40px; */
+}
+
+.uni-name h2{
+    font-size: 12px;
+    color: black;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.summary-box{
+    width: 50%;
+    margin: auto;
+}
+
+.s-icon{
+    /* padding: 5px 0; */
+    text-align: center;
+}
+
+.success-icon{
+    font-size: 80px;
+    color: rgb(131, 214, 47);
+}
+
+.e-test{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(131, 214, 47);
+    margin-top: -15px;
+}
+
+.stats{
+    background-color: rgb(237, 231, 231);
+    height: 340px;
+    width: 80%;
+    margin: auto;
+    padding: 5px 20px;
+}
+
+.remark{
+    text-align: center;
+}
+
+.score-text{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(50, 204, 184);
+}
+
+
+.control-btns ul{
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 10px 0;
+}
+
+.home-btn{
+    text-decoration: none;
+    background: rgb(228, 56, 56);
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s linear all;
+
+}
+
+.home-btn:hover{
+    background: rgb(148, 17, 17);
+
+}
+
+
+.test-btn{
+    text-decoration: none;
+    background: rgb(48, 187, 173);
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s linear all;
+}
+
+.test-btn:hover{
+    background: rgb(22, 106, 97);
+
+}
+
+.no-stats{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(19, 153, 202);
+}
+
+.notest{
+    height: 90vh;
+    width: 100%;
+}
+
+.no-statspage{
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left:30%
+}

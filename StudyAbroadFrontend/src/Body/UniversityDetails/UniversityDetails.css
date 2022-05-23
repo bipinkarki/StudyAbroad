@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.university-details-section{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #fff;
+}
+
+.university-image img{
+    background: no-repeat center center/cover;
+    height: 740px;
+    width: 100%;
+    /* object-fit: contain; */
+    object-position: center;
+}
+
+.university-names{
+    width: 34%;
+    height: auto;
+    position: absolute;
+    top: 229px;
+    left: 90px;
+    color:white;
+    font-family: 'Amiri', serif;
+} 
+
+.university-names h1{
+    font-family: 'PT Serif', serif;
+    font-size: 44px;
+
+} 
+
+.university-names {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+} 
+
+.university-website-btn{
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    color: white;
+    background-color: #f26822;
+    padding: 14px;;
+    border-radius:27px ;
+    margin-top:22px;
+}
+
+/* .university-box{
+    width: 30%;
+    height: 15%;
+    position: absolute;
+    top: 109px;
+    left: 860px;
+    color:black;
+    font-family: 'Amiri', serif;
+    background-color: white;
+    border-radius:27px ;
+} */
+
+.university-box{
+  width: 440px;
+  height: 371px;
+  box-shadow: 0 30px 30px rgb(0 0 0 / 10%);
+  border-radius: 7px;
+  position: absolute;
+  top: 125px;
+  left: 58%;
+  background-color: white;
+    
+}
+
+.university-box  .universities-named{
+    /* font-size: 24px; */
+    margin-left: 8%;
+}
+.universities-named h3{
+  font-size: 24px;
+    margin: 9px -14px;
+}
+
+
+.universities-named span{
+  font-size: 15px;
+  margin: 9px -14px;
+
+
+}
+
+.universities-details{
+     width: 410px;
+     display: grid;
+     grid-template-columns: auto auto;
+     margin: auto;
+}
+
+.university-box .universities-info{
+  background-color: rgb(242 251 251);
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin: 4px 4px;
+    height: 86px;
+    width: 183px;
+
+}
+
+.universities-text{
+  margin: 7px 0;
+  font-size: 13px;
+  color: rgb(121, 117, 114);
+}
+
+.universities-info h3{
+  font-size: 13px;
+  margin-top: 15px;
+
+
+}
+
+.universities-info p{
+  font-size: 13px;
+  color: rgb(121, 117, 114);
+}
+
+.studyAbroad img {
+  width: 24%;
+  height: 60vh;
+  display: flex;
+  object-fit: contain;
+  filter: grayscale(8%);
+  position: absolute;
+  margin: -4% 68%;
+  }
+
+ 
+
+
+  .whyStudy img {
+    width: 28%;
+    height: 35vh;
+    display: flex;
+    object-fit: contain;
+    filter: grayscale(8%);
+    position: absolute;
+    margin: 0% 67%;
+  }
+
+  .internationalStudents img {
+    width: 24%;
+    height: 47vh;
+    display: flex;
+    object-fit: contain;
+    filter: grayscale(8%);
+    position: absolute;
+    margin: -3% 11%;
+  }
+
+.studyAbroad h1{
+    /* font-family: 'Playfair Display', serif; */
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 25px;
+    font-family: auto;
+
+}
+
+.studyAbroad p{
+    /* font-family: 'Playfair Display', serif; */
+    margin-left: 4%;
+    width: 56%;
+    font-size: 13px;
+}
+
+.whyStudy h1{
+  margin-top: 3%;
+  margin-left: 4%;
+  font-size: 25px;
+  font-family: auto;
+}
+
+.whyStudy-title h3{
+  margin-top: 1%;
+  margin-left: 4%;
+  font-size: 20px;
+  font-family: serif;
+
+}
+
+.whyStudy p{
+    /* font-family: 'Playfair Display', serif; */
+    margin-left: 4%;
+    width: 56%;
+    font-size: 13px;
+}
+
+.internationalStudents h1{
+  /* font-family: 'Playfair Display', serif; */
+  margin-top: 5%;
+  margin-left: 46%;
+  font-size: 25px;
+   font-family: auto;
+
+}
+
+
+.internationalStudents p{
+  margin-top: 1%;
+  margin-left: 46%;
+  font-size: 13px;
+}
+/* 
+.Fees-Fundingtab{
+    overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+} */
+
+.Fees-Funding h1{
+  margin-top: 5%;
+  margin-left: 4%;
+  font-size: 25px;
+  font-family: auto
+  }
+
+  .Fees-Funding p{
+    margin-left: 4%;
+    font-size: 13px;
+  }
+  .fee-Information h2{
+    /* font-family: 'Playfair Display', serif; */
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 20px;
+font-family: auto;
+  }
+
+  .Funding h2{ 
+    /* font-family: 'Playfair Display', serif; */
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 20px;
+    font-family: auto;
+
+  }
+
+  .funding-title h3{
+    font-family: 'Playfair Display', serif;
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 30px;
+
+  }
+
+  .funding-title p{
+    font-family: 'Playfair Display', serif;
+    margin-top: 2%;
+    margin-left: 4%;
+  }
+
+  .location h1{
+    /* font-family: 'Playfair Display', serif; */
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 25px;
+    font-family: auto;
+
+
+  }
+
+  .location p{
+    /* font-family: 'Playfair Display', serif; */
+    /* margin-top: 1%; */
+    margin-left: 4%;
+    width:50%;
+    font-size: 13px;
+    color: rgb(135, 122, 122);
+  }
+
+  .comment h1{
+    /* font-family: 'Playfair Display', serif; */
+    margin-top: 5%;
+    font-size: 20px;
+
+  }
+
+  .comment{
+    width: 30%;
+    margin: 0 4%;
+
+  }
+
+  .comment input{
+    border: 1px solid green;
+    margin: 0 4%;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-family: auto;
+    color: green;
+  }
+
+  .postt{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .btn-post{
+    height: 30px;
+    margin: auto;
+    width: 74px;
+    margin: 19px 21px
+  }
+
+  .user-comment{
+    margin: 0 4%;
+  }
