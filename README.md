@@ -1,5 +1,5 @@
 # StudyAbroad
--
+
 # This is a complete portal for students who are thinking of abroad education 
 
 # Start project
@@ -9,8 +9,8 @@
 
 
 # Technology Used 
- 1.Mongo,React,Express,Node js
- 2. HTML ,CSS ,Javascript 
+ Mongo,React,Express,Node js
+ HTML ,CSS ,Javascript 
 
 #Most pages are dyanamic 
 To insert content as a admin , you can use postman app with the respective API rotues 
