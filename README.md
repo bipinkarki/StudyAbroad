@@ -1,6 +1,6 @@
 # StudyAbroad
 -
-# This is a complete portal for students who are thinking of abraod eduaction 
+# This is a complete portal for students who are thinking of abroad education 
 
 # Start project
 1.npm install 
